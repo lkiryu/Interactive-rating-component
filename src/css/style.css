@@ -62,6 +62,17 @@ li{
     cursor: pointer;
     background-color: hsl(213, 19%, 18%);
     color: hsl(217, 12%, 63%);
+    transition: 0.3s ease-in-out;
+}
+
+li:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+li.active{
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
 }
 
 .submit-button{
@@ -75,6 +86,12 @@ li{
     letter-spacing: 2px;
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
+    transition: 0.3s ease-in-out;
+}
+
+.submit-button:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
 }
 
 .card-thanks{
