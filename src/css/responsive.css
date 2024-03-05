@@ -1,0 +1,12 @@
+@media(max-width:425px){
+    .card-rating, .card-thanks{
+        padding: 20px 15px;
+        width: 280px;
+    }
+
+    li{
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+    }
+}
